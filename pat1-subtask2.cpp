@@ -20,4 +20,12 @@ int main() {
     if (difference > 50) {
         cout << "Reduce fryer heat before taking the third reading" << endl;
     } 
+    else if (difference < 10) {
+        cout << "Increase the fryer heat before taking the third reading" << endl;
+    }
+
+    // Input third temperature
+    cout << "Enter the third temperature reading: ";
+    cin >> thirdTemp;
+
    
