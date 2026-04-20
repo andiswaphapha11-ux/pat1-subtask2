@@ -26,6 +26,16 @@ int main() {
 
     // Input third temperature
     cout << "Enter the third temperature reading: ";
-    cin >> thirdTemp;
+    cin >> thirdTemp; 
+    
+   // Final check for frying readiness
+    if (thirdTemp >= 150 && thirdTemp <= 190) {
+        cout << "You may start frying the Magwinyas" << endl;
+    } 
+    else {
+        cout << "Oil is not ready for frying!" << endl;
+    }
 
+    return 0;
+}
    
